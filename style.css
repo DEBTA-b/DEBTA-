@@ -1,0 +1,79 @@
+/* تنسيق عام */
+body {
+    background-color: #721919; /* خلفية فاتحة للتركيز */
+    color: #333;
+    font-family: 'Poppins', sans-serif; /* استخدام الخط الجديد */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* تنسيق الحاوية الرئيسية */
+.links-container {
+    width: 100%;
+    max-width: 450px; 
+    background-color: #090707; /* الخلفية بيضاء للتباين */
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    text-align: center;
+}
+
+/* تنسيق الشعار */
+.brand-logo {
+    width: 100px; /* حجم مناسب للشعار */
+    height: 100px;
+    border-radius: 50%; /* لجعلها دائرية */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #b71c1c; /* إطار حول الشعار */
+}
+
+/* تنسيق اسم البراند والوصف */
+.brand-name {
+    color: #b71c1c; /* اللون الأحمر القوي للبراند */
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.brand-tagline {
+    color: #666;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* تنسيق الأزرار */
+.link-button {
+    display: block;
+    background-color: #b71c1c; /* لون البراند الأساسي */
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.1s;
+    /* تنسيق الأيقونات داخل الزر */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button i {
+    margin-left: 10px; /* مسافة بين الأيقونة والنص */
+    font-size: 1.2em;
+}
+
+/* تأثيرات عند المرور بالماوس */
+.link-button:hover {
+    background-color: #880e4f; /* لون أغمق عند التفاعل */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
